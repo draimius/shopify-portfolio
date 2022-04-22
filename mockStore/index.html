@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project - 1</title>
-    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
-    <link href="css/flow.css" rel="stylesheet" type="text/css" />
-    <link href="css/portfolio-project.css" rel="stylesheet" type="text/css" />
+    <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="../css/flow.css" rel="stylesheet" type="text/css" />
+    <link
+      href="../css/portfolio-project.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
     <script
       src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
       type="text/javascript"
@@ -37,6 +42,7 @@
   </head>
 
   <body class="body">
+    <!-- navbar -->
     <div class="nav-container">
       <div
         data-collapse="medium"
@@ -48,18 +54,18 @@
       >
         <div class="w-layout-grid menu-grid">
           <div>
-            <a href="index.html" class="brand">Home</a>
+            <a href="../index.html" aria-current="page" class="brand w--current"
+              >Jose R.</a
+            >
           </div>
           <nav role="navigation" class="nav-menu w-nav-menu">
-            <a href="work-page.html" class="nav-link w-nav-link">Work</a>
-            <a
-              href="services.html"
-              aria-current="page"
-              class="nav-link w-nav-link w--current"
+            <a href="../services/index.html" class="nav-link w-nav-link"
               >Services</a
             >
-            <a href="about.html" class="nav-link w-nav-link">About</a>
-            <a href="contact.html" class="navigation-cta">Hire us →</a>
+            <a href="index.html" class="nav-link w-nav-link">Work</a>
+            <a href="../about.html" class="nav-link w-nav-link">About</a>
+            <!-- <a href="contact.html" class="nav-link w-nav-link">Contact →</a> -->
+            <a href="../contact.html" class="navigation-cta">Contact →</a>
           </nav>
           <div class="menu-button w-nav-button nav-colapse">
             <div class="icon w-icon-nav-menu"></div>
@@ -67,6 +73,8 @@
         </div>
       </div>
     </div>
+
+    <!-- main title / sub title -->
     <div class="section">
       <div class="main-container">
         <h1 class="big-text">Recent work</h1>
@@ -80,45 +88,40 @@
       </div>
     </div>
 
+    <!-- img | title/body split -->
     <section id="feature-section" class="feature-section">
       <div class="flex-container w-container">
-        <div class="feature-image-mask image-mask">
+        <div class="feature-image-mask image-mask border-frame">
           <a href="work.html"
             ><img
-              src="images\marvin-meyer-SYTO3xs06fU-unsplash.jpg"
+              src="./couture/images/screen.png"
               alt=""
               class="feature-image"
           /></a>
         </div>
         <div class="text-container">
-          <h1>Branding Project</h1>
+          <h1>Houte Couture</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda a
-            voluptate nam asperiores aspernatur modi officiis facilis itaque
-            nesciunt, rem minima architecto ducimus, ut sequi veniam distinctio
-            possimus officia expedita.
+            Haute Couture is a elegant collections for women who want to stand
+            out, feel confident, and exmbrace their unique selves.
           </p>
-          <a href="work.html" class="link link-margin">project 1</a>
+          <a href="work.html" class="link link-margin">see more details</a>
         </div>
       </div>
     </section>
 
+    <!-- img | title/body split -->
     <section id="hero" class="feature-section">
       <div class="flex-container w-container">
         <div class="text-container">
-          <h1>Store Development</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatem, reiciendis. Repudiandae explicabo eligendi veritatis
-            autem tenetur in tempore, similique mollitia fuga expedita.
-            Asperiores ducimus ratione, aut dolore aspernatur libero laudantium!
-          </p>
-          <a href="work-2.html" class="link link-margin">project 2</a>
+          <h1>Steadfast</h1>
+          <p>Premius supplier from you home office needs.</p>
+          <a href="work-2.html" class="link link-margin">see more details</a>
         </div>
         <div class="hero-image-mask image-mask">
           <a href="work-2.html"
             ><img
-              src="images\marvin-meyer-SYTO3xs06fU-unsplash.jpg"
+              src="./steadfast/images/screen.png"
               alt=""
               class="feature-image"
           /></a>
@@ -126,53 +129,45 @@
       </div>
     </section>
 
+    <!-- img | title/body split -->
     <section id="feature-section" class="feature-section">
       <div class="flex-container w-container">
         <div class="feature-image-mask image-mask">
           <a href="work-3.html"
-            ><img
-              src="images\marvin-meyer-SYTO3xs06fU-unsplash.jpg"
-              alt=""
-              class="feature-image"
+            ><img src="./vigor/images/screen.png" alt="" class="feature-image"
           /></a>
         </div>
         <div class="text-container">
-          <h1>Site Migration</h1>
+          <h1>Vigor Performance</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consectetur illum beatae repellat doloribus tempora? Rem nemo
-            mollitia excepturi commodi modi illo a asperiores enim et harum!
-            Maxime fugiat illo explicabo.
+            Vigor Performance fitness therapy company specilized in premium
+            quailiy massage guns, for training at your best.
           </p>
-          <a href="work-3.html" class="link link-margin">project 3</a>
+          <a href="work-3.html" class="link link-margin">see more details</a>
         </div>
       </div>
     </section>
 
+    <!-- img | title/body split -->
     <section id="hero" class="feature-section">
       <div class="flex-container w-container">
         <div class="text-container">
-          <h1>Store Setup</h1>
+          <h1>Teafion</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
-            corrupti eligendi sequi repellat quo, itaque adipisci dolores ab rem
-            officiis, et voluptatibus at, reprehenderit quaerat optio ipsa
-            aperiam sapiente odit?
+            Teafion all things elegant and Tea, providing the best in loose leaf
+            teas and teaware we love.
           </p>
-          <a href="work-4.html" class="link link-margin">project 4</a>
+          <a href="work-4.html" class="link link-margin">see more details</a>
         </div>
         <div class="hero-image-mask image-mask">
           <a href="work-3.html"
-            ><img
-              src="images\marvin-meyer-SYTO3xs06fU-unsplash.jpg"
-              alt=""
-              class="hero-image"
+            ><img src="./teafion/images/screen.png" alt="" class="hero-image"
           /></a>
         </div>
       </div>
     </section>
 
-    <div class="call-to-action-black section black">
+    <!-- <div class="call-to-action-black section black">
       <div class="main-container">
         <div class="big-text">
           Interested in working with Foundation? We&#x27;d love to hear from
@@ -180,7 +175,32 @@
         </div>
         <a href="contact.html" class="link light">Schedule a call →</a>
       </div>
+    </div> -->
+
+    <!-- full width/ large text/ call to action -->
+    <div class="section filled">
+      <br />
+      <div class="main-container">
+        <div class="big-text">
+          Shedule a call today and kickstart your project
+        </div>
+        <a href="contact.html" class="link light">Schedule a call →</a>
+      </div>
     </div>
+
+    <!-- full width /large text /call to action -->
+    <!-- <div class="section filled">
+      <div class="main-container">
+        <br />
+        <div class="big-text">
+          We dont just build a store or website we build a valueble assest for
+          you business. Build tailored to you needs, wants and industry with
+          dilignece and excelense. we build somethign your proud to share
+        </div>
+        <br />
+        <a href="contact.html" class="link light">Schedule a call →</a>
+      </div>
+    </div> -->
 
     <!-- footer -->
     <div class="footer">
