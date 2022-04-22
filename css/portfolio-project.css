@@ -543,10 +543,8 @@ figcaption {
 }
 
 .index-service .section-header {
-  /* color: #46732a; */
-  font-weight: bold;
-  /* text-align: left; */
-  font-size: 2rem;
+  /* font-weight: bold; */
+  font-size: 2.3rem;
   margin-bottom: 20px;
 }
 .index-service .sub {
@@ -568,20 +566,10 @@ figcaption {
   padding: 20px;
   transition: ease 0.3s all;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: flex-start;
   color: black;
   box-sizing: border-box;
-}
-
-.service-card:hover {
-  box-sizing: border-box;
-  /* border: solid 5px #46732a; */
-  /* transform: translateY(-8px); */
-  background-color: #46732a;
-  color: white;
-  /* box-shadow: 8px 10px 8px gray; */
-  transition: ease 0.3s all;
 }
 
 .service-card p,
@@ -604,18 +592,10 @@ figcaption {
   justify-content: center;
   align-items: center;
   color: white;
-}
-.link-btn button {
-  color: black;
-  background-color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
   transition: ease-in-out 0.5s all;
 }
-.link-btn button:hover {
-  background-color: #46732a;
-  color: white;
-  /* transform: translateY(-5px); */
+.link-btn:hover {
+  transform: translateY(-5px);
   transition: ease-in-out 0.5s all;
 }
 
@@ -774,12 +754,21 @@ figcaption {
   transition: all 1s ease-in-out;
 }
 
-#services *,
-#why-me *,
 #process * {
   text-align: left;
 }
 
+/* special case */
+@media screen and (max-width: 1200px) {
+  #process .cards-grid-container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: left;
+  }
+}
 /* ---------------------------------------------------START of 991px view styles-------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 991px) {
@@ -980,6 +969,14 @@ figcaption {
     padding: 40px 20px;
   }
   .cards-grid-container4 {
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: left;
+  }
+  #process .cards-grid-container {
     display: grid;
     grid-auto-columns: 1fr;
     gap: 40px;
