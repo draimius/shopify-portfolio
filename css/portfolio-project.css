@@ -759,6 +759,12 @@ figcaption {
   text-align: left;
 }
 
+.work-portrait {
+  width: 600px;
+  height: 100%;
+  margin: 30px;
+}
+
 /* ---------------------------------------------------SPECIAL CASES 1200px view styles-------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   #process .cards-grid-container {
