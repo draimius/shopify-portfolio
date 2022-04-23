@@ -764,23 +764,11 @@ figcaption {
 .features-gallery {
   margin-bottom: 40px;
 }
-/* .work-portrait {
-  max-width: 400px;
-  height: auto;
-  box-sizing: border-box;
-} */
 
-/* #work-gallery {
-  display: flex;
-  align-items: flex-start;
-  box-sizing: border-box;
+.video-frame {
+  width: 760px;
+  height: 430px;
 }
-.features-gallery {
-}
-
-.work-homepage {
-  box-sizing: border-box;
-} */
 
 /* ---------------------------------------------------SPECIAL CASES 1200px view styles-------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
@@ -791,6 +779,10 @@ figcaption {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     text-align: left;
+  }
+  .video-frame {
+    width: 560px;
+    height: 315px;
   }
 }
 /* ---------------------------------------------------START of 991px view styles-------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -1007,6 +999,10 @@ figcaption {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     text-align: left;
+  }
+  .video-frame {
+    width: 320px;
+    height: 180px;
   }
 }
 
