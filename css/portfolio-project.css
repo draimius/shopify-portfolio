@@ -758,12 +758,29 @@ figcaption {
 #process * {
   text-align: left;
 }
-
-.work-portrait {
-  width: 600px;
-  height: 100%;
-  margin: 30px;
+.text-center {
+  text-align: center;
 }
+.features-gallery {
+  margin-bottom: 40px;
+}
+/* .work-portrait {
+  max-width: 400px;
+  height: auto;
+  box-sizing: border-box;
+} */
+
+/* #work-gallery {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.features-gallery {
+}
+
+.work-homepage {
+  box-sizing: border-box;
+} */
 
 /* ---------------------------------------------------SPECIAL CASES 1200px view styles-------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
