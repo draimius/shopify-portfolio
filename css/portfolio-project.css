@@ -770,6 +770,19 @@ figcaption {
   height: 430px;
 }
 
+#feature-section .me {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.me img {
+  margin-top: 10px;
+}
+.me p,
+.me li {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+
 /* ---------------------------------------------------SPECIAL CASES 1200px view styles-------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 1200px) {
   #process .cards-grid-container {
@@ -784,12 +797,19 @@ figcaption {
     width: 560px;
     height: 315px;
   }
+  .me p,
+  .me li {
+    font-size: 1rem;
+  }
 }
 /* ---------------------------------------------------START of 991px view styles-------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 991px) {
   .body {
     font-size: 20px;
+  }
+  .me p {
+    font-size: 1rem;
   }
   .main-container {
     padding-right: 40px;
@@ -886,6 +906,10 @@ figcaption {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     text-align: left;
+  }
+  #feature-section p,
+  #feature-section li {
+    font-size: 1rem;
   }
 }
 
