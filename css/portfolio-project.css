@@ -113,7 +113,6 @@ figcaption {
   color: #000;
   font-weight: 400;
   text-decoration: none;
-  /* font-size: rem; */
 }
 
 .nav-link {
@@ -314,17 +313,6 @@ figcaption {
   grid-template-rows: auto;
 }
 
-/* .project-block {
-  width: 100%;
-  -webkit-transition: opacity 200ms ease, color 200ms ease;
-  transition: opacity 200ms ease, color 200ms ease;
-  text-decoration: none;
-}
-
-.project-block:hover {
-  opacity: 0.8;
-} */
-
 .text-center {
   text-align: center;
 }
@@ -409,7 +397,6 @@ figcaption {
 
 .section-header {
   margin-bottom: 50px;
-  /* color: hsla(0, 0%, 76.7%, 0.6); */
   font-weight: 500;
 }
 
@@ -543,13 +530,11 @@ figcaption {
 }
 
 .index-service .section-header {
-  /* font-weight: bold; */
   font-size: 2.3rem;
   margin-bottom: 20px;
 }
 .index-service .sub {
   margin-bottom: 55px;
-  /* text-align: center; */
 }
 
 .service-card a {
@@ -639,10 +624,6 @@ figcaption {
 #main-title .section {
   padding-top: 20px;
 }
-
-/* #main-title h1 {
-  font-size: 65px;
-} */
 
 #about h1 {
   margin: 0;
@@ -827,7 +808,6 @@ figcaption {
     padding-left: 40px;
   }
   .section {
-    /* padding-top: 60px; */
     padding-bottom: 60px;
   }
   .big-text {
@@ -1079,14 +1059,7 @@ figcaption {
   .link-margin {
     margin: 10px 0 0 0;
   }
-  /* .cards-grid-container4 {
-    display: grid;
-    grid-auto-columns: 1fr;
-    gap: 40px;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    text-align: left;
-  } */
+
   .index-service {
     margin-top: 0;
     padding-top: 20px;
